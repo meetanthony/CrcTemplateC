@@ -5,6 +5,8 @@
 
 // Parameters for CRC-32/ISO-HDLC
 // https://crccalc.com/?crc=123456789&method=CRC-32/ISO-HDLC&datatype=ascii&outtype=hex
+// const uint32_t poly = 0x04C11DB7; // Polynomial for CRC-32/ISO-HDLC
+// const uint32_t check = 0xCBF43926; // Expected CRC for "123456789" with CRC-32/ISO-HDLC
 const uint8_t width = 32;
 const uint32_t init = 0xFFFFFFFF;
 const bool refInOut = true;
