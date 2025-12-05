@@ -18,7 +18,7 @@ Expected CRC result for the string `"123456789"`: `0xCBF43926`
 ## Compilation
 
 ```bash
-gcc -o crc_test main.c crc.c
+gcc -o crc_test main.c
 ./crc_test
 ```
 

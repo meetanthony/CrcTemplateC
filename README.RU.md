@@ -18,7 +18,7 @@
 ## Компиляция
 
 ```bash
-gcc -o crc_test main.c crc.c
+gcc -o crc_test main.c
 ./crc_test
 ```
 
